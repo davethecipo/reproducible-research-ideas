@@ -18,6 +18,7 @@ I'll use this repo to dump ideas about reproducible research.
 3. Some team members wrote text in Microsoft Word instead of writing LaTeX in a simple editor, causing various problems of formatting during the copy/paste; this led to a good amount of time loss
 4. Multiple simulations were run with customs scripts, in foreground, with no control over the process (for example it was impossible to stop a single job without stopping everything and forcing to restart **every** simulations, even those already successfully run; if a job failed, there wasn't a clear indication)
 5. Time constraints put so much pressure that code duplication happened (for graphs creation/manipulation) 
+6. Libraries/programs versions were not tracked
 6. Matplotlib didn't provide reasonable defaults, thus requiring constant tweaking, worsened by code duplication
 7. Code was entangled: there wasn't a clear separation between presentation code (graphical tweaks) and logic
 8. The team chose to produce color images, but it would have been nice to produce **both** B/W and color
@@ -32,6 +33,7 @@ I'll use this repo to dump ideas about reproducible research.
 3. If the beowulf cluster is too slow, request resources to the professor for time on a university server/cluster. In any case, use a script to automate the upload and the job submission
 4. Use GIT for everything (this was easy)
 5. Explore literate programming (e.g Pweave)
+6. Use tools like vagrant to guarantee reproducible environments
 6. Use HDF5 to save simulations output as an intermediate step. Therefore we would save
   1. input files
   2. output files
