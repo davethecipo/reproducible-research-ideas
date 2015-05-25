@@ -40,3 +40,8 @@ I'll use this repo to dump ideas about reproducible research.
   3. HDF file containing results from output (obviously produced by a script)
 7. Find a way to separate code regarding visual tweaking from "logic code". In addition, clearly separate the various steps (output to HDF5 processing, HDF5 processing). Write functions that accept an ```Experiment``` and produce a simple graph, a graph with fitting, or a function that compares multiple experiments
 8. Investigate the easiest way to incorporate multiple subimages (it could be a single image with subplots coming from matplotlib, or multiple images stiched together by LaTeX)
+
+
+### Interesting links
+
+http://bkanuka.com/articles/native-latex-plots/
